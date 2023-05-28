@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/perfil"
+            android:title="@string/menu_inicio_sesion" />
+        <item
+            android:id="@+id/nav_prof"
+            android:icon="@mipmap/school"
+            android:title="@string/profesores" />
+        <item
+            android:id="@+id/nav_alum"
+            android:icon="@mipmap/alumnosmax"
+            android:title="@string/alumnos" />
+        <item
+            android:id="@+id/nav_cur"
+            android:icon="@mipmap/book"
+            android:title="@string/cursos" />
+        <item
+            android:id="@+id/nav_list_aul"
+            android:icon="@mipmap/alulas"
+            android:title="@string/aulas" />
+        <item
+            android:id="@+id/nav_aul"
+            android:icon="@mipmap/interior_design"
+            android:title="@string/dise_o_aulas" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/location"
+            android:title="@string/mapa" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/contacto"
+            android:title="@string/contacto" />
+    </group>
+</menu>

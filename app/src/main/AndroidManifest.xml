@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:name=".ui.basedatos.DBHelperApplication"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/edi_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/edi_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto_final"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Proyecto_final.NoActionBar"
+            tools:ignore="RedundantLabel">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".ui.navegacion.MapaGoogle"
+                  android:label="Google Maps"/>
+        <activity android:name=".ui.lista.ListviewActivity"
+            android:label="Listado Aulas"/>
+        <activity
+
+            android:name=".ui.aulas.AulasActivity"
+            android:label="Aulas" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" android:required="true"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" android:required="true"/>
+</manifest>

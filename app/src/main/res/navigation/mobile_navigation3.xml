@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_prof">
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.proyecto_final.ui.navegacion.NavegacionFragment"
+        android:label="Navegación"
+        android:background = "@color/teal_200"
+        tools:layout="@layout/fragment_navegacion" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.proyecto_final.ui.contacto.ContactoFragment"
+        android:label="Datos de Contacto"
+        android:background = "@color/teal_200"
+        tools:layout="@layout/fragment_contacto" />
+
+    <fragment
+        android:id="@+id/nav_prof"
+        android:name="com.proyecto_final.ui.profesores.ProfesoresFragment"
+        android:label="Profesores"
+        android:background = "@color/teal_200"
+        tools:layout="@layout/profesores" />
+    <fragment
+        android:id="@+id/nav_aul"
+        android:name="com.proyecto_final.ui.aulas.AulasFragment"
+        android:label="Diseño Aulas del Centro"
+        android:background = "@color/teal_200"
+        tools:layout="@layout/fragment_aulas" />
+    <fragment
+        android:id="@+id/nav_list_aul"
+        android:name="com.proyecto_final.ui.aulas.ListadoAulasFragment"
+        android:label="Aulas del Centro"
+        android:background = "@color/teal_200"
+        tools:layout="@layout/aulas" />
+    <fragment
+        android:id="@+id/nav_alum"
+        android:name="com.proyecto_final.ui.alumnos.AlumnosFragment"
+        android:label="Alumnos"
+        android:background = "@color/teal_200"
+        tools:layout="@layout/alumnos" />
+    <fragment
+        android:id="@+id/nav_cur"
+        android:name="com.proyecto_final.ui.curso.CursosFragment"
+        android:label="Cursos"
+        android:background = "@color/teal_200"
+        tools:layout="@layout/cursos" />
+</navigation>

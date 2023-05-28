@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.proyecto_final.ui.inicio_sesion.InicioSesionFragment"
+        android:label="@string/menu_inicio_sesion"
+        android:background = "@color/teal_200"
+        tools:layout="@layout/fragment_inicio_sesion" />
+</navigation>
