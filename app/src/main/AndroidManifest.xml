@@ -35,8 +35,6 @@
         </activity>
         <activity android:name=".ui.navegacion.MapaGoogle"
                   android:label="Google Maps"/>
-        <activity android:name=".ui.lista.ListviewActivity"
-            android:label="Listado Aulas"/>
         <activity
 
             android:name=".ui.aulas.AulasActivity"

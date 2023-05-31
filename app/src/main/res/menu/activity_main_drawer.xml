@@ -6,11 +6,11 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@mipmap/perfil"
+            android:icon="@raw/perfil"
             android:title="@string/menu_inicio_sesion" />
         <item
             android:id="@+id/nav_prof"
-            android:icon="@mipmap/school"
+            android:icon="@raw/school"
             android:title="@string/profesores" />
         <item
             android:id="@+id/nav_alum"
@@ -30,11 +30,11 @@
             android:title="@string/dise_o_aulas" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@mipmap/location"
+            android:icon="@raw/location"
             android:title="@string/mapa" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@mipmap/contacto"
+            android:icon="@raw/contacto"
             android:title="@string/contacto" />
     </group>
 </menu>
